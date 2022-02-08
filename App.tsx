@@ -1,4 +1,5 @@
 import React from 'react';
+import { StatusBar } from 'expo-status-bar';
 import {
   DMSans_400Regular, useFonts,
 } from '@expo-google-fonts/dm-sans';
@@ -8,8 +9,8 @@ import {
 import AppLoading from 'expo-app-loading';
 import { ThemeProvider } from 'styled-components/native';
 import theme from '@src/theme';
-
-import { Signin } from '@src/components/screens/Signin';
+import { AuthProvider } from '@src/hooks/auth';
+import { Routes } from '@src/routes';
 
 export default function App() {
   const [fontsLoader] = useFonts({
@@ -22,8 +23,11 @@ export default function App() {
   }
 
   return (
-    <ThemeProvider theme={theme}>
-      <Signin />
-    </ThemeProvider>
+    <AuthProvider>
+      <ThemeProvider theme={theme}>
+        <StatusBar style="light" translucent backgroundColor="transparent"/>
+        <Routes />
+      </ThemeProvider>
+    </AuthProvider>
   );
 }

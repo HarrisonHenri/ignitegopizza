@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "755107750014",
+    "project_id": "ignitegopizza",
+    "storage_bucket": "ignitegopizza.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755107750014:android:2cdab5afa56f0891f4382f",
+        "android_client_info": {
+          "package_name": "com.ignitegopizza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755107750014-535khpk8nbboa83mbrknrkr6kh2e1msv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ignitegopizza",
+            "certificate_hash": "c380e237cb568d40881d7c0d12def3fd4d60cb13"
+          }
+        },
+        {
+          "client_id": "755107750014-obulsrbc8g6pbiv9ij4928204o3ueid0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYGrsGKxE4af2W_l73Cyzx72dWYAACSNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755107750014-obulsrbc8g6pbiv9ij4928204o3ueid0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

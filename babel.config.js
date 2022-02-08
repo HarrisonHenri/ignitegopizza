@@ -10,10 +10,12 @@ module.exports = function (api) {
 					root: ['./src'],
 					extensions: ['.ts', '.tsx', '.js', '.json'],
 					alias: {
+						'@src': './src',
 						'@components': './src/components',
 						'@screens': './src/screens',
 						'@assets': './src/assets',
 						'@hooks:': './src/hooks',
+						'@utils:': './src/utils',
 					},
 				},
 			],
